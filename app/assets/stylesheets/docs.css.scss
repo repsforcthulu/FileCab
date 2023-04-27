@@ -5,13 +5,13 @@
 
    #docs {
     .doc {
-      background: #78594B;
+      background: #08ddba;
       width: 90%;
       min-height: 100px;
       margin: 1rem 1%;
       padding: 1.5rem 2.5%;
       float: left;
-      border-radius: 2.9rem;
+      border-radius: 15px;
       position: relative;
       text-align: center;
       .title {
@@ -35,7 +35,7 @@
         position: absolute;
         bottom: .25rem;
         left: 27.5%;
-        color: $light_gray;
+        color: rgb(80, 80, 117);
         font-weight: bold;
         font-size: .75rem;
         text-align: left;
@@ -48,7 +48,7 @@
   #doc_show {
     .title {
       @include bold_font;
-      color: #78594B;
+      color: #14023f;
       font-size: 2.0rem;
       margin-bottom: 1.25rem;
       padding-bottom: 1rem;
